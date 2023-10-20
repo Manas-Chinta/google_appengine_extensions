@@ -20,7 +20,6 @@ class ELObserver(ndb.eventloop.EventLoop):
         return super(ELObserver, self).__getattr__(arg_name)
 
 class DequeueObserver(collections.deque):
-
     def __init__(self):
         super(DequeueObserver, self).__init__()
 
