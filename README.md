@@ -7,6 +7,7 @@ This involves some of the google_appengine related helper functions, that can be
     If this method M1 contains any asynchronous method calls, these asynchronous method's insertion and execution in the event loop will be logged.
 
   Ex:
+  
     @ndb.tasklet
     def child_1_async():
         if False: yield None # generator func
