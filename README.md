@@ -7,8 +7,9 @@ In each folder there exists a test file, which uses the methods/classes/wrappes 
 1) Eventloop Tracer:
     @ELTracer decorator can be added to the top level method M1. 
     If this method M1 contains any asynchronous method calls, these asynchronous method's insertion and execution in the event loop will be logged.
-    This wrapper will increase the observability of google_appenegine internal event loop.
-    This can be used as a learning tool to understand how eventloop internal mechanism works or to debug the dead-lock sitations of asynchronous programming.
+    
+    - This wrapper will increase the observability of google_appenegine internal event loop.
+    - This can be used as a learning tool to understand how eventloop internal mechanism works or to debug the dead-lock sitations of asynchronous programming.
 
   Ex:
   
