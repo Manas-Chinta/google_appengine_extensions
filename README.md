@@ -32,6 +32,22 @@ This involves some of the google_appengine related helper functions, that can be
 
     This will print all activity in the event loop
 
+    SAMPLE OUTPUT:
+    ----Added to queue: tasklet test_parent_async(final_main_script:115)
+    $$$$$$$$ QUEUE: ['tasklet test_parent_async(final_main_script:115)'] $$$$$$$$
+    ---executing: tasklet test_parent_async(final_main_script:115)
+    $$$$$$$$ QUEUE: [] $$$$$$$$
+    ----Added to queue: tasklet child_1_async(final_main_script:98)
+    $$$$$$$$ QUEUE: ['tasklet child_1_async(final_main_script:98)'] $$$$$$$$
+    ---executing: tasklet child_1_async(final_main_script:98)
+    $$$$$$$$ QUEUE: [] $$$$$$$$
+    ----Added to queue: on_future_completion running after: tasklet child_1_async(final_main_script:98)
+    $$$$$$$$ QUEUE: ['on_future_completion running after: tasklet child_1_async(final_main_script:98)'] $$$$$$$$
+    .
+    .
+    ,
+
+
 
     
     
