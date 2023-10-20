@@ -53,8 +53,6 @@ class DequeueObserver(collections.deque):
     def _pop_log(self, val):
         return "---executing: {}".format(val[0].__self__._info)
         
-
-
 class DictObserver(dict):
     def __setitem__(self, key, value):
         print(self._set_item_log())
