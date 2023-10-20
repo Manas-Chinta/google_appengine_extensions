@@ -2,7 +2,7 @@
 
 This involves some of the google_appengine related helper functions, that can be used for observability of function call ...etc.
 
-In each folder there exists a test file, which uses the methods/classes/wrappes created in the sample folder with some basic examples.
+In each folder there exists a test file, which uses the methods/classes/wrappers created in the sample folder with some basic examples.
 
 1) Eventloop Tracer:
     @ELTracer decorator can be added to the top level method M1. 
